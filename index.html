@@ -22,83 +22,84 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/png/photo-profil.png"
+              alt="Josué de Almeida Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Josué de Almeida</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html" class="header__link">Accueil</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link">À propos</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./experiences.html" class="header__link">Expériences</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./formations.html" class="header__link">Formations</a>
+            </li>
+            <!-- Dropdown Projets -->
+            <li class="header__link-wrapper header__dropdown">
+              <a class="header__link">Projets ▾</a>
+              <ul class="header__dropdown-menu">
+                <li class="header__dropdown-item">
+                  <a href="./project-1.html" class="header__dropdown-link">ReSource</a>
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="./project-2.html" class="header__dropdown-link">Flowboard</a>
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="./project-3.html" class="header__dropdown-link">Carbnb</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link">Contact</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
           </div>
         </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
+        <!-- Menu Mobile (Small Menu) -->
+        <div class="header__sm-menu">
+          <div class="header__sm-menu-content">
+            <ul class="header__sm-menu-links">
+              <li class="header__sm-menu-link"><a href="./index.html">Accueil</a></li>
+              <li class="header__sm-menu-link"><a href="./index.html#about">À propos</a></li>
+              <li class="header__sm-menu-link"><a href="./experiences.html">Expériences</a></li>
+              <li class="header__sm-menu-link"><a href="./formations.html">Formations</a></li>
+              <li class="header__sm-menu-link"><a> Projets :</a></li>
+              <li class="header__sm-menu-link" style="padding-left: 2rem;"><a href="./project-1.html">- ReSource</a></li>
+              <li class="header__sm-menu-link" style="padding-left: 2rem;"><a href="./project-2.html">- Flowboard</a></li>
+              <li class="header__sm-menu-link" style="padding-left: 2rem;"><a href="./project-3.html">- Carbnb</a></li>
+              <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is John Doe</h1>
+        <h1 class="heading-primary">Développeur fullstack</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente solutions for
-            complex problems
+            Développeur web passionné, je transforme des idées en interfaces modernes, 
+            intuitives et performantes. 
+            Curieux et méthodique, je cherche à progresser sur des missions stimulantes où je peux 
+            apprendre, construire et apporter de la valeur dans une approche rigoureuse.
           </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
         </div>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/josu%C3%A9-de-almeida/" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -107,7 +108,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://github.com/ManOfSkin" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -115,31 +116,10 @@
             />
           </a>
         </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+         <div class="home-hero__social">
+          <a href="https://resumego.link/josuedealmeida" class="home-hero__social-icon-link" target="_blank">
             <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
+              src="./assets/png/cv.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -153,53 +133,76 @@
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__main">À propos de moi</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+          
+
           </span>
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+            <h3 class="about__content-title">Mon profil</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                Je suis un <strong>développeur informatique</strong> animé par l’envie de concevoir des solutions 
+                numériques utiles, soignées et efficaces. J’aime travailler sur des projets qui mêlent 
+                <strong>technique, design et logique produit</strong> pour proposer des interfaces à la fois claires et 
+                agréables à utiliser.<br><br>
+
+                Au fil de mes projets, j’ai développé une approche rigoureuse basée sur l’apprentissage
+                continu, l’amélioration permanente et le souci du détail. Mon objectif est de continuer 
+                à progresser dans un environnement stimulant, tout en <strong>apportant une vraie valeur ajoutée</strong> 
+                aux projets auxquels je participe.<br><br>
+
+                
+               
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
+                Ce portfolio présente une sélection de mes réalisations académiques et de mon
+                parcours, afin de donner une vision concrète de mes compétences et méthodes de travail.<br> 
+
+                Vous pouvez me contacter <strong>contacter</strong> ici.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr">
+              Contact
+            </a>
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
+            <h3 class="about__content-title">Mes compétences en 'DEV'</h3>
             <div class="skills">
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
+              <div class="skills__skill">SCSS</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Python</div>
               <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">Express.JS</div>
+              <div class="skills__skill">React.JS</div>
+              <div class="skills__skill">Next.JS</div>
+              <div class="skills__skill">Vue.JS</div>
+              <div class="skills__skill">Vite.JS</div>
+              <div class="skills__skill">Node.JS</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">GitHub</div>
+              
+            </div>
+            <br><br>
+            <h3 class="about__content-title">Mes compétences en 'OPS'</h3>
+            <div class="skills">
+              <div class="skills__skill">CI/CD</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Kubernetes</div>
+              <div class="skills__skill">Terraform</div>
+              <div class="skills__skill">Ansible</div>
+              <div class="skills__skill">Prometheus</div>
+              <div class="skills__skill">Jenkins</div>
+              <div class="skills__skill">Datadog</div>
+              <div class="skills__skill">GitLab</div>
+               <div class="skills__skill">GitHub Actions</div>
+              
             </div>
           </div>
         </div>
@@ -208,10 +211,16 @@
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__main">Mes projets</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            <br>Voici une sélection de projets qui illustrent mon approche du 
+            développement web : concevoir des solutions utiles, écrire un code propre et livrer des 
+            interfaces modernes, performantes et évolutives.<br><br>
+            À travers mes projets, je cherche avant tout à démontrer ma capacité à comprendre un
+            besoin, à concevoir une solution technique pertinente et à livrer un résultat propre, 
+            fonctionnel et maintenable.<br><br>
+            Mon expérience en développement, en support technique et en 
+            environnement d’exploitation m’aide à adopter une approche complète et pragmatique.
           </span>
         </h2>
 
@@ -219,75 +228,74 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/jpeg/resource-screenshot.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">ReSource</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+               Plateforme web de mise en relation citoyenne réalisée 
+               pour un projet à destination du Ministère de la Santé.
               </p>
               <a
                 href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Détails du projet</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/jpeg/carbnb-screenshot.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">CarBnb</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Reproduction fonctionnelle de la célèbre plateforme de location Airbnb orienté location de véhicules. 
+                Développement d'une architecture de type marketplace intégrant la gestion des utilisateurs, 
+                des réservations croisées et un système de géolocalisation.
               </p>
               <a
                 href="./project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Détails du projet</a
               >
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/jpeg/flowboard-screenshot.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
-            </div>
+            </div> 
+
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">Flowboard</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Application web de gestion de projet et d'optimisation des flux de travail, développée en équipe. 
+                Un outil collaboratif complet conçu avec Ruby on Rails et JavaScript pour améliorer la productivité.
               </p>
               <a
                 href="./project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Détails du projet</a
               >
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>
@@ -296,17 +304,17 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+         En recherche d’une alternance pour un MSc (Master of Science) en développement logiciel,
+         spécialisé en robotique et objets connectés à l'école Epitech de Bordeaux, je suis ouvert à toute opportunité de collaboration sur des projets concrets.
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://formspree.io/f/xrenljgp" method="POST" class="contact__form">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
+              <label class="contact__form-label" for="name">Prénom NOM</label>
               <input
                 required
-                placeholder="Enter Your Name"
+                placeholder="Entrez votre prénom et nom"
                 type="text"
                 class="contact__form-input"
                 name="name"
@@ -317,8 +325,8 @@
               <label class="contact__form-label" for="email">Email</label>
               <input
                 required
-                placeholder="Enter Your Email"
-                type="text"
+                placeholder="Entrez votre email"
+                type="email"
                 class="contact__form-input"
                 name="email"
                 id="email"
@@ -331,13 +339,13 @@
                 cols="30"
                 rows="10"
                 class="contact__form-input"
-                placeholder="Enter Your Message"
+                placeholder="Entrez votre message"
                 name="message"
                 id="message"
               ></textarea>
             </div>
             <button type="submit" class="btn btn--theme contact__btn">
-              Submit
+              Envoyer
             </button>
           </form>
         </div>
@@ -351,7 +359,7 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/josu%C3%A9-de-almeida/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
@@ -365,41 +373,22 @@
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
+             
+             
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Josué de Almeida</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              Développeur fullstack - Expert en Ingénierie Avancée du Logiciel - ISCOD Promotion 2026-2027
+            
             </p>
           </div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          &copy; Copyright 2026. Portfolio adapté par Josué de Almeida Rodrigues. <br>
+          Template original par
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
